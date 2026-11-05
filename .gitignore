@@ -12,6 +12,8 @@ inspect_*.js
 parse_*.js
 read_*.js
 compare_*.js
+scan_*.js
+find_*.js
 original_page.html
 
 # Test screenshots in root
@@ -21,7 +23,8 @@ original_page.html
 /section_scroll_*.png
 /contact_modal_open.png
 /mobile_menu_open.png
-/vercel_live.png
+/vercel_*.png
+/test_*.png
 
 # OS files
 .DS_Store
