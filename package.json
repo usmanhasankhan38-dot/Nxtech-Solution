@@ -1,14 +1,9 @@
 {
-  "name": "designik-agency-clone",
+  "name": "nxtech-solution",
   "version": "1.0.0",
-  "description": "100% exact replica of Designik Agency landing page",
-  "main": "server.js",
+  "description": "Designik Agency landing page",
   "scripts": {
-    "start": "node server.js",
-    "verify": "node verify_viewports.js",
-    "compare": "node compare_screenshots.js"
-  },
-  "dependencies": {
-    "puppeteer-core": "^25.16.0"
+    "build": "echo 'Static build ready'",
+    "start": "node server.js"
   }
 }
