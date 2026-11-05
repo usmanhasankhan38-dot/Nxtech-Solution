@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+
+# Test & Inspection scripts
+check_*.js
+capture_*.js
+download_*.js
+verify_*.js
+test_*.js
+inspect_*.js
+parse_*.js
+read_*.js
+compare_*.js
+original_page.html
+
+# Test screenshots in root
+/screenshot_*.png
+/clone_*.png
+/live_*.png
+/section_scroll_*.png
+/contact_modal_open.png
+/mobile_menu_open.png
+
+# OS files
+.DS_Store
+Thumbs.db
