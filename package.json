@@ -1,9 +1,9 @@
 {
   "name": "nxtech-solution",
   "version": "1.0.0",
-  "description": "Designik Agency landing page",
+  "description": "Designik Agency landing page clone",
   "scripts": {
-    "build": "echo 'Static build ready'",
+    "build": "node build.js",
     "start": "node server.js"
   }
 }

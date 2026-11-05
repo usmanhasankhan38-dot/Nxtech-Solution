@@ -1,5 +1,4 @@
 {
-  "version": 2,
   "cleanUrls": true,
   "headers": [
     {
@@ -9,15 +8,9 @@
       ]
     },
     {
-      "source": "/js/(.*)\\.mjs",
+      "source": "/js/(.*)",
       "headers": [
         { "key": "Content-Type", "value": "application/javascript; charset=utf-8" }
-      ]
-    },
-    {
-      "source": "/fonts/(.*)\\.woff2",
-      "headers": [
-        { "key": "Content-Type", "value": "font/woff2" }
       ]
     }
   ]
